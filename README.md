@@ -1,0 +1,2 @@
+# nvim
+Agnostic Neovim Config
