@@ -26,7 +26,6 @@ local plugins = {
   ["nvim-tree.lua"] = "https://github.com/nvim-tree/nvim-tree.lua",
   ["nvim-web-devicons"] = "https://github.com/nvim-tree/nvim-web-devicons",
   ["copilot.vim"] = "https://github.com/github/copilot.vim",
-  ["gruvbox.nvim"] = "https://github.com/ellisonleao/gruvbox.nvim",
   ["plenary.nvim"] = "https://github.com/nvim-lua/plenary.nvim",
   ["CopilotChat.nvim"] = "https://github.com/CopilotC-Nvim/CopilotChat.nvim",
 }
