@@ -21,7 +21,7 @@
 </p>
 
 <br>
----
+
 ## 🧠 Design Principles
 
 - Explicit configuration over magic
@@ -30,12 +30,15 @@
 - Fast startup time
 - Maintainability first
 
----
+<br>
+
 ## 📦 Stack
 
 - mini.nvim (core utilities)
 - nvim-tree (file explorer)
 - GitHub Copilot (AI assistance)
+
+<br>
 
 ## ⚙️ Philosophy
 
@@ -46,7 +49,7 @@
 - No unnecessary abstractions
 - No overengineered setup
 
----
+<br>
 
 ## 🚀 Why this config?
 
@@ -66,7 +69,7 @@ Instead, it prioritizes:
 - Predictable behavior  
 - Fast startup  
 
----
+<br>
 
 ## 📂 Project Structure
 
@@ -112,6 +115,7 @@ On first launch:
 * Plugins will be downloaded
 * Restart Neovim if required
 
+<br>
 
 # 🎯 Target Audience
 
