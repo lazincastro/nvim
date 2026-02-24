@@ -1,14 +1,41 @@
-# 💤 Neovim Config — Lazaro Castro
-
-<h3 align="center">
-Simple. Fast. <strong>Zero spaghetti.</strong>
-</h3>
+<h1 align="center">💤 Neovim Config</h1>
 
 <p align="center">
-Minimal Lua-based Neovim configuration focused on performance, structure, and productivity.
+  Minimal Lua-based setup focused on performance and clean architecture.
 </p>
 
+<p align="center">
+  <strong>Simple.</strong>
+  <strong>Fast.</strong>
+  <strong>Zero spaghetti.</strong>
+</p>
+
+<p align="center">
+  ⚡ Modular • 🧩 Lightweight • 🚀 DevOps-ready
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Neovim-0.9+-blue?style=flat-square&logo=neovim" />
+  <img src="https://img.shields.io/badge/Lua-Config-2C2D72?style=flat-square&logo=lua" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
+</p>
+
+<br>
 ---
+## 🧠 Design Principles
+
+- Explicit configuration over magic
+- Clear responsibility boundaries
+- Minimal plugin surface
+- Fast startup time
+- Maintainability first
+
+---
+## 📦 Stack
+
+- mini.nvim (core utilities)
+- nvim-tree (file explorer)
+- GitHub Copilot (AI assistance)
 
 ## ⚙️ Philosophy
 
@@ -62,51 +89,29 @@ Instead, it prioritizes:
 
 ```
 
----
 
-# 🚀 Installation
-
-## 1️⃣ Requirements
+## 🚀 Installation
+### Requirements
 
 - Neovim >= 0.9
 - Git
 - Node.js (required for Copilot)
 
----
-
-## 2️⃣ Backup your current config
-
 ```bash
 mv ~/.config/nvim ~/.config/nvim.bak
-rm -rf ~/.local/share/nvim                                               
-rm -rf ~/.local/state/nvim
-rm -rf ~/.cache/nvim
-
-````
-
----
-
-## 3️⃣ Clone the repository
-
-```bash
+mv ~/.local/share/nvim ~/.local/share/nvim.bak                                               
+mv ~/.local/state/nvim ~/.local/state/nvim.bak
+mv ~/.cache/nvim ~/.cache/nvim.bak
 git clone https://github.com/lazincastro/nvim.git ~/.config/nvim
-```
-
----
-
-## 4️⃣ Start Neovim
-
-```bash
+rm -rf ~/.config/nvim/.git
 nvim
 ```
-
 On first launch:
 
 * The plugin manager will install automatically
 * Plugins will be downloaded
 * Restart Neovim if required
 
----
 
 # 🎯 Target Audience
 
