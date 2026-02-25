@@ -7,6 +7,9 @@ require("gitsigns").setup({
     changedelete = { text = "▎" },
   },
 
+  linehl = false,  -- disable line highlight
+  numhl = false,   -- disable number highlight
+
   current_line_blame = true,
   current_line_blame_opts = {
     delay = 500,

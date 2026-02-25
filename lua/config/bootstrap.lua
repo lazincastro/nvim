@@ -29,6 +29,7 @@ local plugins = {
   ["plenary.nvim"] = "https://github.com/nvim-lua/plenary.nvim",
   ["CopilotChat.nvim"] = "https://github.com/CopilotC-Nvim/CopilotChat.nvim",
   ["gitsigns.nvim"] = "https://github.com/lewis6991/gitsigns.nvim",
+  ["catppuccin"] = "https://github.com/catppuccin/nvim",
 }
 
 for folder, repo in pairs(plugins) do

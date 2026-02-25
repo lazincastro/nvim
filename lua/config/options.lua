@@ -18,7 +18,6 @@ vim.opt.scrolloff = 10                -- Keep 10 lines above/below cursor
 vim.opt.sidescrolloff = 10            -- Keep 10 columns left/right of cursor
 vim.opt.fillchars = { eob = " " }     -- Hide ~ on empty lines
 vim.opt.guicursor = ""                -- Use block cursor in all modes
-vim.cmd("colorscheme retrobox")       -- Set colorscheme
 
 
 -- =====================================================
